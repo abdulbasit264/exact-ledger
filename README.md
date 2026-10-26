@@ -1,5 +1,7 @@
 # exact-ledger
 
+[![tests](https://github.com/abdulbasit264/exact-ledger/actions/workflows/tests.yml/badge.svg)](https://github.com/abdulbasit264/exact-ledger/actions/workflows/tests.yml)
+
 Exact money arithmetic and a **tamper-evident, hash-chained double-entry journal** in plain PHP — no framework, no dependencies.
 
 It is extracted from the accounting core of a multi-tenant logistics ERP I built and run in production (invoicing, AR/AP, commissions, inventory, payroll, all posting through one general ledger). The production version lives inside a private Laravel codebase; this repository is the same ideas, small enough to read in five minutes, with tests.
