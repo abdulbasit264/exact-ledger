@@ -1,0 +1,22 @@
+{
+    "name": "abdulbasit264/exact-ledger",
+    "description": "Exact integer money arithmetic and a tamper-evident, hash-chained double-entry journal for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "Abdul Basit"}],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12.5.30"
+    },
+    "autoload": {
+        "psr-4": {"ExactLedger\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"ExactLedger\\Tests\\": "tests/"}
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
